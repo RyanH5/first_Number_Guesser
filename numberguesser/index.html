@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guesser</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="headurr" role="banner">
+    <h1 class="h1a">Number <span class="white-head">Guesser</span></h1>
+  </header>
+    <section class="main-box">
+      <form class="box">
+        <input class= "typer" type="number" name="guess" size= "60" placeholder="Enter your Guess"/></br>       
+          <form class="spacer">
+            <label for="Guess"></label>
+            <input type="submit" value="Guess" id="guess" disabled="true"/>
+            <label for="Clear"></label>
+            <input type="button" value="Clear" id="clear" disabled="true"/>
+          </form>  
+        </article> 
+      </form>
+      <h2 class="lastguess"></h2>
+      <p class="bignum">Pick a number!</p>    
+      <h2 class="feedback"></h2>
+      <label for="Reset"></label>
+      <form class="reset">
+        <input type="Submit" value="Reset" id="reset" disabled="true" />
+      </form>
+    </section>
+    <section class="unshow" >  
+      <form>  
+        <fieldset class="rangefield">
+          <label for="Set a number range"></label>
+          <h6 class="youpick" name="Set a Number Guessing Range">Set a Number Guessing Range</h6> 
+          <label for="Set Minimum Number"></label>
+          <input class= "newrange" type="text" size="10" placeholder="Low" id="low" />
+          <label for="Set Max Number"></label>
+          <input class= "newrange" type="text" size="10" placeholder="High" id="high" /><br>
+          <label for="Submit Range"></label>
+          <input type="Submit" name="Are you Feeling Lucky, PUNK?" class="punk" />
+        </fieldset>
+      </form>
+    </section>
+      <audio id= "audio">
+      <source src = "https://actions.google.com/sounds/v1/weapons/rifle_shot_echo.ogg" type="audio/ogg">
+    </audio>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

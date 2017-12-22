@@ -1,0 +1,142 @@
+*,
+*: after,
+*: before{
+  box-sizing: border-box;
+}
+body {
+  font-family: open sans, sans-serif;
+  text-align: center;
+  border-top: solid 54px #808184;
+  border-radius: 10px 10px 0px 0px; 
+  border-right: solid 4px #808184;
+  border-bottom: solid 4px #808184;
+  border-left: solid 4px #808184;
+
+}
+h1 {
+  background-color: #404041;
+  color: #DC548A;
+  width: 100%;
+  text-align: center;
+  height: 91px;
+  padding-top: 15px;
+  font-size: 60px;
+  font-weight: 700; 
+  margin-top:0;
+}
+
+.white-head {
+  color: white;
+  margin-top: 0;
+  font-weight: 300;
+}
+.main-box{
+  display:none;
+}
+form #trd {
+  position: absolute;
+  background: transparent;
+  display: inline-block;
+  top: 20px;
+  left: 14px;
+}
+#red {
+  width: 10px;
+  border-radius: 50%;
+  border: solid gray 2px;
+  background-color: red;
+}
+.typer {
+  height: 36px;
+  font-size: 30px;
+  padding-left: 8px;
+  width: 450px;
+  font-weight: lighter;
+  padding-top: 13px;
+}
+.box {
+  font-size: 24px;
+}
+#guess, #clear {
+  background-color: #929497;
+  color: #FFFFFF;
+  height: 51px;
+  width: 220px;
+  margin-top: 40px;    
+  margin-right: 22px;
+  margin-bottom: 52px;
+  font-size: 26px;
+  font-weight: 300;
+  border-radius: 33px;
+}
+.spacer {
+
+}
+#guess:disabled, #clear:disabled, #reset:disabled {
+  background-color: #D0D2D3; 
+}
+
+#guess:hover, #clear:hover {
+  background-color: #EB0080;
+}
+#reset:hover {
+  background-color: #EB0080;
+  }
+
+#guess { 
+  position: relative;
+  left: 13px;
+}
+#clear {
+  position: relative;
+  right: -13px;
+}
+#reset{
+  color: #FFFFFF;
+  background-color: #929497;
+  margin-bottom: 50px;
+  height: 42px;
+  width: 462px;
+  font-size: 26px;
+  font-weight: 300;
+  border-radius: 20px;
+}
+.bignum {
+  color: #EB008B;
+  margin: -42px auto;
+  font-size: 218px;    
+  font-weight: 200;
+}
+h3 {
+  height: 200px;
+  font-size: 50px;
+  color: red;
+}
+.feedback {
+  margin-bottom: 63px;
+  margin-top: 43px;
+  font-weight: lighter;
+}
+.youpick {
+  font-size: 37px;
+  width: 450px;
+  text-align: center;
+  margin: 20px auto;
+}
+.lastguess {
+  margin-bottom: 32px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.newrange {
+  height:36px;
+  font-size: 30px;
+}
+.punk {
+  height: 36px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.rangefield {
+  border: 2px;
+}
