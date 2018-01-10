@@ -1,3 +1,4 @@
+
 var typebox = document.querySelector('.typer');
 let audio = new Audio();
 var resetbutton = document.querySelector('#reset');
